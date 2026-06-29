@@ -211,7 +211,7 @@ income-predictor/
 ├── README.md                     # Project documentation
 │
 └── models/
-    ├── gradient_boost_model.pkl  # Trained XGBoost classifier
+    ├── xgboost_model.pkl  # Trained XGBoost classifier
     ├── preprocessor.pkl          # Fitted ColumnTransformer pipeline
     ├── cat_features.pkl          # Categorical feature name list
     └── num_features.pkl          # Numerical feature name list
